@@ -1,0 +1,46 @@
+project: DEFECTTWIN2D_STAGE_STRONG_Q1_TRANSPORT_RANK
+version: 2.1.0-conditional-ablation
+created: 2026-07-18
+primary_threshold_muB: 0.10
+seeds: [20260715, 20260716, 20260717, 20260718, 20260719]
+models:
+  extra_trees:
+    n_estimators: 220
+    min_samples_leaf: 2
+    max_features: sqrt
+    class_weight: balanced
+    n_jobs: -1
+  conditional_extra_trees:
+    n_estimators: 220
+    min_samples_leaf: 2
+    max_features: sqrt
+    n_jobs: -1
+    representation: raw_plus_label_blind_host_centered
+    weighting: equal_host_and_within_host_class_balanced
+  logistic:
+    C: 1.0
+    max_iter: 3000
+  pair_rank:
+    C: 1.0
+    max_iter: 3000
+    max_pairs_per_host: 1000
+  host_branch:
+    pca_components_max: 8
+    ridge_alpha: 10.0
+selection:
+  within_host_tolerance: 0.005
+  host_centered_tolerance: 0.010
+  candidates:
+    - {name: ET_only, w_global: 1.00, w_conditional: 0.00, w_host: 0.00, w_rank: 0.00}
+    - {name: Conditional_only, w_global: 0.00, w_conditional: 1.00, w_host: 0.00, w_rank: 0.00}
+    - {name: Blend_25ET_75Conditional, w_global: 0.25, w_conditional: 0.75, w_host: 0.00, w_rank: 0.00}
+    - {name: Blend_50ET_50Conditional, w_global: 0.50, w_conditional: 0.50, w_host: 0.00, w_rank: 0.00}
+    - {name: ConditionalRank_A, w_global: 0.00, w_conditional: 0.75, w_host: 0.00, w_rank: 0.25}
+    - {name: ConditionalRank_B, w_global: 0.00, w_conditional: 0.75, w_host: 0.00, w_rank: 0.50}
+    - {name: ConditionalHostRank, w_global: 0.00, w_conditional: 0.75, w_host: 0.25, w_rank: 0.25}
+    - {name: ConditionalHost, w_global: 0.00, w_conditional: 0.75, w_host: 0.25, w_rank: 0.00}
+statistics:
+  host_bootstrap_replicates: 2000
+  bootstrap_seed: 20260718
+  screening_fractions: [0.10, 0.20]
+output_formats: [csv, xlsx, json, md, png, pdf, svg]

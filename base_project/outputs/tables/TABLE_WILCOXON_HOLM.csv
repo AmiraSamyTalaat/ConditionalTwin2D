@@ -1,0 +1,13 @@
+cohort,comparison,metric,hosts,mean_difference,median_difference,wilcoxon_statistic,p_value,holm_p,significant_0_05
+Development_LOHO,RawHostClassET > ET,per-host AUROC,13,-0.017121575545488567,0.0,15.0,0.21875,1.0,False
+Development_LOHO,CenteredOnlyET > ET,per-host AUROC,13,-0.04454167100488172,0.0,12.0,0.65625,1.0,False
+Development_LOHO,ConditionalET > ET,per-host AUROC,13,0.06086071439332309,0.0,24.0,0.0546875,0.65625,False
+2DMD_retrospective,RawHostClassET > ET,per-host AUROC,3,0.00565318955456066,-0.004795872153209202,3.0,0.625,1.0,False
+2DMD_retrospective,CenteredOnlyET > ET,per-host AUROC,3,0.10840435728938437,-0.052892080745341685,3.0,0.625,1.0,False
+2DMD_retrospective,ConditionalET > ET,per-host AUROC,3,0.12998600084651735,-0.03026332815735,3.0,0.625,1.0,False
+Imp2D_retrospective,RawHostClassET > ET,per-host AUROC,40,-0.0021037827070356082,-0.001554780995150301,374.0,0.6863574178096314,1.0,False
+Imp2D_retrospective,CenteredOnlyET > ET,per-host AUROC,40,-0.02239044343057692,-0.005711831646778687,269.0,0.9717082877605208,1.0,False
+Imp2D_retrospective,ConditionalET > ET,per-host AUROC,40,-0.0021728075836384684,0.0020937162441475587,455.0,0.2768497783717976,1.0,False
+QPOD_retrospective,RawHostClassET > ET,per-host AUROC,7,0.0015760249095450834,-0.0014025245441795509,15.0,0.46875,1.0,False
+QPOD_retrospective,CenteredOnlyET > ET,per-host AUROC,7,-0.003233753098126838,-0.007480130902290827,11.0,0.7109375,1.0,False
+QPOD_retrospective,ConditionalET > ET,per-host AUROC,7,0.0006296592896452648,0.0042075736325385416,14.0,0.53125,1.0,False

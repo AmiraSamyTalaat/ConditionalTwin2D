@@ -1,0 +1,15 @@
+{
+  "components": [
+    "knn",
+    "mahalanobis",
+    "range",
+    "isolation",
+    "uncertainty"
+  ],
+  "fit_cohort": "Development only",
+  "PCA_components": 13,
+  "PCA_explained_variance": 0.9500614725540649,
+  "AD_score": "unweighted mean of five development empirical percentiles",
+  "development_q95_cutoff": 0.8806049149338374,
+  "external_labels_used_in_fitting": false
+}

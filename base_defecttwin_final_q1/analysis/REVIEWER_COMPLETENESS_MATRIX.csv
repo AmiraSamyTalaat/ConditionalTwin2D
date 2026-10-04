@@ -1,0 +1,25 @@
+Requirement,Implementation,Status,Evidence
+Target definition,Absolute defective-supercell moment; no pristine-relative or experimental-order claim,PASS,Methods 2.2; target sensitivity table
+Host-disjoint validation,Outer leave-one-host-out with fixed seeds and inverse-host weighting,PASS,Methods 2.5
+Calibration validity,Constrained monotonic Identity/Platt/Beta/Temperature; no silent fallback,PASS,Calibration tables and parameters
+Calibrator selection,Development-only mean-rank across record and macro-host Brier/NLL/ECE,PASS,Temperature selected; no external labels
+Calibration uncertainty,"5,000 host bootstraps, paired CIs, Wilcoxon plus Holm",PASS,Paired bootstrap and Wilcoxon tables
+Calibration diagnostics,"Record and host-balanced reliability, slope and intercept",PASS,Figures F1-F2; slope/intercept table
+Threshold sensitivity,"0.05, 0.10, 0.20, 0.50 micro-B with 1,000 host-bootstrap CIs",PASS,Threshold tables and Figure F3
+Continuous target,"log(1+|M|), global/host-centered Spearman, MAE, median AE, RMSE, R2, 500 bootstraps",PASS,Continuous tables and Figure F4
+Host shortcut,"Primary, between-host-only, host proxy, prevalence, and oracle audits",PASS,Baseline table and Figure F5
+External lockbox integrity,Predictions sealed before label opening; commitments verified,PASS,Inherited D/E/F lockbox evidence
+Cross-family lockbox,Imp2D phase-unseen adsorbate/interstitial evaluation,PASS-NEGATIVE,Near-chance pooled AUROC; report as failure
+Same-regime lockbox,2DMD phase-unseen substitution/vacancy evaluation,PASS-PARTIAL,Moderate pooled signal; weak within-host transfer
+Applicability domain,"kNN, Mahalanobis, range, Isolation Forest, ensemble uncertainty; development-only fit",PASS-NEGATIVE,AD v2 tables and Figures F6-F7
+AD predictive utility,Error and failed-host predictiveness tested without external refitting,PASS-NEGATIVE,External correlations not consistently useful
+Feature evidence,Grouped permutation and 150-run rank stability,PASS,Final importance tables
+GNN claim boundary,Only evaluated lightweight GCN controls discussed; no general GNN inferiority claim,PASS,Discussion and supplement
+Modern baselines,No claim of SOTA equivalence to DefiNet/ALIGNN/MEGNet,PASS,Claim boundary
+Reproducibility,"Inputs, seeds, configs, scripts, checkpoints, hashes, verification",PASS,Complete ZIP
+Figures and tables cited,Every main/supplement item cited in text,PASS,Document QA
+Document formatting,"One font, black text/tables, colored figures, mathematical equations",PASS,Preflight and render QA
+Database references,"QPOD, C2DB, Imp2D, and 2DMD referenced with source links",PASS,References and data registry
+Declarations,Exact requested statements included,PASS,Declarations
+Larger independent lockbox,Additional larger public same-regime source,NOT AVAILABLE,Not fabricated; listed as future work
+Strong Q1 guarantee,Acceptance guarantee,NOT CLAIMED,Specialized-Q1 attempt only

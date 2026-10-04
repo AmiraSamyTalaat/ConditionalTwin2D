@@ -1,0 +1,23 @@
+{
+  "title": "ConditionalTwin-2D reproducibility package",
+  "upload_type": "software",
+  "description": "Code and frozen reproducibility artifacts supporting the revised manuscript: Host Conditional Machine Learning Supports Candidate Ranking of Magnetic Point Defects Within Two Dimensional Materials Using Computed Magnetic Moments. Version 8 preserves the submitted manuscript evidence chain, adds reviewer-requested audits, explicit cohort/manuscript provenance tables, and a non-mutating full verifier.",
+  "creators": [
+    {
+      "name": "Talaat, Amira Samy",
+      "orcid": "0000-0002-9413-3079",
+      "affiliation": "Electronics Research Institute, Cairo, Egypt"
+    }
+  ],
+  "access_right": "open",
+  "license": "MIT",
+  "keywords": [
+    "two-dimensional materials",
+    "magnetic point defects",
+    "machine learning",
+    "host-conditional ranking",
+    "materials informatics",
+    "reproducibility"
+  ],
+  "version": "8.0"
+}

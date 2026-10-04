@@ -1,0 +1,10 @@
+{
+  "development_records": 529,
+  "host_defect_keys_with_multiple_source_variants": 59,
+  "maximum_variants_per_host_defect_key": 3,
+  "duplicate_host_defect_variant_rows": 0,
+  "duplicate_record_ids": 0,
+  "duplicate_detail_urls": 0,
+  "duplicate_defect_structure_sha256": 0,
+  "charge_state_context": "Frozen development identifiers are charge-state 0 rows in the QPOD naming scheme."
+}

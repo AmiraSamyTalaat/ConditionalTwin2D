@@ -1,0 +1,22 @@
+\begin{table}[htbp]
+\centering
+\caption{Paired host-level Wilcoxon tests with Holm correction.}
+\label{tab:wilcoxon}
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{lrrrrrrr}
+\toprule
+selected & comparator & metric & median\_host\_difference\_selected\_minus\_comparator & wilcoxon\_statistic & p\_raw & p\_holm & holm\_significant\_0\_05 \\
+\midrule
+temperature & beta & Brier & -0.0006 & 222.0000 & 0.8394 & 1.0000 & False \\
+temperature & beta & NLL & -0.0037 & 221.0000 & 0.8236 & 1.0000 & False \\
+temperature & beta & ECE15 & -0.0010 & 221.0000 & 0.8236 & 1.0000 & False \\
+temperature & platt & Brier & -0.0002 & 193.0000 & 0.4280 & 1.0000 & False \\
+temperature & platt & NLL & 0.0015 & 227.0000 & 0.9193 & 1.0000 & False \\
+temperature & platt & ECE15 & 0.0022 & 218.0000 & 0.7766 & 1.0000 & False \\
+temperature & identity & Brier & -0.0019 & 122.0000 & 0.0221 & 0.1768 & False \\
+temperature & identity & NLL & -0.0072 & 119.0000 & 0.0185 & 0.1668 & False \\
+temperature & identity & ECE15 & -0.0062 & 138.0000 & 0.0523 & 0.3658 & False \\
+\bottomrule
+\end{tabular}
+}
+\end{table}

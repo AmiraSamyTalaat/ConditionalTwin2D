@@ -1,0 +1,5 @@
+cohort,records,hosts,NaN_values_across_68,Inf_values_across_68,duplicate_primary_ids,notes
+Development,529,30,0,0,0,529 frozen QPOD/C2DB records
+2DMD strict,2500,5,0,0,0,strict_primary records
+Imp2D strict,11866,40,0,0,0,development-overlap phases excluded
+QPOD extension,693,7,0,0,0,precommitted release extension

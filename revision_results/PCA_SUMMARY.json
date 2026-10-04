@@ -1,0 +1,8 @@
+{
+  "pc1_variance": 0.14614295775877356,
+  "pc2_variance": 0.11695234442853157,
+  "pc12_variance": 0.26309530218730515,
+  "pcs_10_variance": 0.6991093980273868,
+  "binary_silhouette_pc12": -0.005724473201083769,
+  "binary_silhouette_full68": 0.1005046636252384
+}

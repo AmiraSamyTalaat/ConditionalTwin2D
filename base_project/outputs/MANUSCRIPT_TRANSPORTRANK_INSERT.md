@@ -1,0 +1,15 @@
+# Manuscript insertion — ConditionalTwin-2D stage
+
+## Methods
+
+A development-only candidate-selection framework was evaluated under leave-one-host-out cross-fitting. Its nonlinear conditional branch, termed ConditionalTwin-2D, concatenated the 68 raw frozen descriptors with 68 label-blind deviations from the mean descriptor vector of the candidate pool belonging to the same host. Training assigned equal total weight to each host and, for mixed hosts, equal total weight to the two target classes. Three explicit ablations separated the effects of the original host-balanced estimator, host/class reweighting alone, and centered descriptors alone. Additional host-prevalence and within-host pairwise ranking branches were evaluated in a finite, predeclared combination grid. For every held-out development host, the combination was selected using cross-fitted predictions from the remaining hosts only, prioritizing within-host pair AUROC, followed by host-centered and pooled AUROC. No Imp2D, 2DMD, or QPOD label was used in representation, model, or weight selection.
+
+## Results
+
+The original ExtraTrees baseline achieved pooled AUROC 0.9079, host-centered AUROC 0.7297, within-host pair AUROC 0.8089, and macro-host AUROC 0.7957. Host/class reweighting alone increased within-host AUROC to 0.8201; centered descriptors alone increased it to 0.8431; and their combined ConditionalTwin-2D representation reached pooled AUROC 0.9318, host-centered AUROC 0.7166, within-host AUROC 0.8608, and macro-host AUROC 0.8565. The paired host-bootstrap gain in within-host AUROC over ExtraTrees was +0.0500 (95% CI, +0.0214 to +0.0860). The candidate-selection procedure selected the conditional branch alone in all 30 overlapping host-row-exclusion sensitivity tables and in the full development selection; the host and linear pairwise branches were therefore rejected rather than retained for architectural complexity. Host-centered AUROC decreased modestly relative to ExtraTrees, making the result a deliberate improvement in conditional defect ordering rather than a uniform improvement in every metric.
+
+The previously opened external cohorts were retained strictly as retrospective diagnostics. On 2DMD, ConditionalTwin-2D increased within-host AUROC from 0.4774 to 0.5673, while pooled AUROC decreased from 0.7216 to 0.5441, consistent with suppression of between-host shortcut signal. No convincing retrospective advantage was observed on Imp2D or QPOD.
+
+## Claim boundary
+
+ConditionalTwin-2D strengthens the algorithmic contribution by providing a label-blind, candidate-pool-conditional representation with explicit ablations and development-only selection. It requires a batch of candidate defects from the same host to compute host-centered descriptors and is not a single-record inductive predictor. Because the method was designed after the earlier external outcomes were known, Imp2D, 2DMD, and QPOD results cannot be presented as prospective validation. A newly sealed untouched source or prospective DFT cohort remains necessary for a confirmatory transport claim.

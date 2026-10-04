@@ -1,0 +1,13 @@
+cohort,score,host_centered_auc_naive,host_centered_auc_tie_safe,within_host_auc
+Development,global_development_prevalence,0.2195601743001348,0.5,0.5
+Development,oracle_host_prevalence,0.5,0.5,0.5
+Development,ET_score,0.7296937208062948,0.7296937208062948,0.8089291823469039
+Development,ConditionalET_score,0.7166368851688141,0.7166368851688141,0.8607594936708861
+2DMD,global_development_prevalence,0.5,0.5,0.5
+2DMD,oracle_host_prevalence,0.5,0.5,0.5
+2DMD,ET_score,0.5190358884219414,0.5190358884219414,0.4773534796328861
+2DMD,ConditionalET_score,0.5205973493450625,0.5205973493450625,0.5672801291161804
+Imp2D,global_development_prevalence,0.5078161797040499,0.5,0.5
+Imp2D,oracle_host_prevalence,0.5,0.5,0.5
+Imp2D,ET_score,0.525864936236135,0.525864936236135,0.5151842760397626
+Imp2D,ConditionalET_score,0.5221935798244419,0.5221935798244419,0.5196593025887433

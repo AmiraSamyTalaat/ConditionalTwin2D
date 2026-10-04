@@ -1,0 +1,11 @@
+{
+  "name": "Conditional_only",
+  "w_global": 0.0,
+  "w_conditional": 1.0,
+  "w_host": 0.0,
+  "w_rank": 0.0,
+  "selection_data": "development LOHO predictions only",
+  "external_labels_used": false,
+  "external_cohorts_confirmatory_after_selection": false,
+  "conditional_representation": "raw descriptors plus label-blind host-centered deviations"
+}

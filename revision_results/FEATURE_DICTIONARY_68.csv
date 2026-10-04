@@ -1,0 +1,69 @@
+feature,definition
+c_bin_0_abs_delta_fraction,Sum of absolute defect-minus-pristine elemental atomic-fraction changes for elements with atomic number Z in 1-10.
+c_bin_0_delta_fraction,Signed sum of defect-minus-pristine elemental atomic-fraction changes for elements with atomic number Z in 1-10.
+c_bin_1_abs_delta_fraction,Sum of absolute defect-minus-pristine elemental atomic-fraction changes for elements with atomic number Z in 11-20.
+c_bin_1_delta_fraction,Signed sum of defect-minus-pristine elemental atomic-fraction changes for elements with atomic number Z in 11-20.
+c_bin_2_abs_delta_fraction,Sum of absolute defect-minus-pristine elemental atomic-fraction changes for elements with atomic number Z in 21-30.
+c_bin_2_delta_fraction,Signed sum of defect-minus-pristine elemental atomic-fraction changes for elements with atomic number Z in 21-30.
+c_bin_3_abs_delta_fraction,Sum of absolute defect-minus-pristine elemental atomic-fraction changes for elements with atomic number Z in 31-40.
+c_bin_3_delta_fraction,Signed sum of defect-minus-pristine elemental atomic-fraction changes for elements with atomic number Z in 31-40.
+c_bin_4_abs_delta_fraction,Sum of absolute defect-minus-pristine elemental atomic-fraction changes for elements with atomic number Z in 41-50.
+c_bin_4_delta_fraction,Signed sum of defect-minus-pristine elemental atomic-fraction changes for elements with atomic number Z in 41-50.
+c_bin_5_abs_delta_fraction,Sum of absolute defect-minus-pristine elemental atomic-fraction changes for elements with atomic number Z in 51-60.
+c_bin_5_delta_fraction,Signed sum of defect-minus-pristine elemental atomic-fraction changes for elements with atomic number Z in 51-60.
+c_bin_6_abs_delta_fraction,Sum of absolute defect-minus-pristine elemental atomic-fraction changes for elements with atomic number Z in 61-80.
+c_bin_6_delta_fraction,Signed sum of defect-minus-pristine elemental atomic-fraction changes for elements with atomic number Z in 61-80.
+c_bin_7_abs_delta_fraction,Sum of absolute defect-minus-pristine elemental atomic-fraction changes for elements with atomic number Z in 81-120.
+c_bin_7_delta_fraction,Signed sum of defect-minus-pristine elemental atomic-fraction changes for elements with atomic number Z in 81-120.
+x_Z_bin_0_fraction,Defect-minus-pristine change in atomic fraction for atoms with Z in 1-10.
+x_Z_bin_1_fraction,Defect-minus-pristine change in atomic fraction for atoms with Z in 11-20.
+x_Z_bin_2_fraction,Defect-minus-pristine change in atomic fraction for atoms with Z in 21-30.
+x_Z_bin_3_fraction,Defect-minus-pristine change in atomic fraction for atoms with Z in 31-40.
+x_Z_bin_4_fraction,Defect-minus-pristine change in atomic fraction for atoms with Z in 41-50.
+x_Z_bin_5_fraction,Defect-minus-pristine change in atomic fraction for atoms with Z in 51-60.
+x_Z_bin_6_fraction,Defect-minus-pristine change in atomic fraction for atoms with Z in 61-80.
+x_Z_bin_7_fraction,Defect-minus-pristine change in atomic fraction for atoms with Z in 81-120.
+x_Z_max,Defect-minus-pristine change in maximum atomic number.
+x_Z_mean,Defect-minus-pristine change in mean atomic number.
+x_Z_min,Defect-minus-pristine change in minimum atomic number.
+x_Z_std,Defect-minus-pristine change in standard deviation of atomic number.
+x_Z_unique,Defect-minus-pristine change in number of distinct atomic numbers.
+x_area_ratio,Defective-cell in-plane area divided by mapped pristine-supercell in-plane area.
+x_atom_count_ratio,Defective-structure atom count divided by mapped pristine-supercell atom count.
+x_atoms_per_area,Defect-minus-pristine change in atoms per in-plane area.
+x_degree_fraction_0,Defect-minus-pristine change in fraction of atoms with graph degree 0.
+x_degree_fraction_1,Defect-minus-pristine change in fraction of atoms with graph degree 1.
+x_degree_fraction_2,Defect-minus-pristine change in fraction of atoms with graph degree 2.
+x_degree_fraction_3,Defect-minus-pristine change in fraction of atoms with graph degree 3.
+x_degree_fraction_4,Defect-minus-pristine change in fraction of atoms with graph degree 4.
+x_degree_fraction_5,Defect-minus-pristine change in fraction of atoms with graph degree 5.
+x_degree_fraction_6,Defect-minus-pristine change in fraction of atoms with graph degree 6.
+x_degree_fraction_7,Defect-minus-pristine change in fraction of atoms with graph degree 7.
+x_degree_fraction_8_plus,Defect-minus-pristine change in fraction of atoms with graph degree 8 or more.
+x_degree_max,Defect-minus-pristine change in maximum graph degree.
+x_degree_mean,Defect-minus-pristine change in mean graph degree.
+x_degree_min,Defect-minus-pristine change in minimum graph degree.
+x_degree_std,Defect-minus-pristine change in standard deviation of graph degree.
+x_density_ratio,Defective atoms-per-area divided by pristine atoms-per-area.
+x_edge_delta_Z_mean,Defect-minus-pristine change in mean absolute atomic-number contrast across graph edges.
+x_edge_delta_Z_std,Defect-minus-pristine change in standard deviation of atomic-number contrast across graph edges.
+x_edge_distance_max,Defect-minus-pristine change in maximum graph-edge distance.
+x_edge_distance_mean,Defect-minus-pristine change in mean graph-edge distance.
+x_edge_distance_min,Defect-minus-pristine change in minimum graph-edge distance.
+x_edge_distance_q10,Defect-minus-pristine change in 10th percentile graph-edge distance.
+x_edge_distance_q25,Defect-minus-pristine change in 25th percentile graph-edge distance.
+x_edge_distance_q50,Defect-minus-pristine change in median graph-edge distance.
+x_edge_distance_q75,Defect-minus-pristine change in 75th percentile graph-edge distance.
+x_edge_distance_q90,Defect-minus-pristine change in 90th percentile graph-edge distance.
+x_edge_distance_std,Defect-minus-pristine change in standard deviation of graph-edge distance.
+x_edge_homonuclear_fraction,Defect-minus-pristine change in fraction of graph edges joining atoms with the same atomic number.
+x_edges_per_atom,Defect-minus-pristine change in graph edges per atom.
+x_isolated_fraction,Defect-minus-pristine change in fraction of atoms with graph degree zero.
+x_layer_thickness_A,"Defect-minus-pristine change in layer thickness along z, in angstrom."
+x_radial_fraction_0,"Defect-minus-pristine change in fraction of graph-edge distances in radial bin [0, 1.5) angstrom (final-bin boundary follows archived extractor)."
+x_radial_fraction_1,"Defect-minus-pristine change in fraction of graph-edge distances in radial bin [1.5, 2.0) angstrom (final-bin boundary follows archived extractor)."
+x_radial_fraction_2,"Defect-minus-pristine change in fraction of graph-edge distances in radial bin [2.0, 2.5) angstrom (final-bin boundary follows archived extractor)."
+x_radial_fraction_3,"Defect-minus-pristine change in fraction of graph-edge distances in radial bin [2.5, 3.0) angstrom (final-bin boundary follows archived extractor)."
+x_radial_fraction_4,"Defect-minus-pristine change in fraction of graph-edge distances in radial bin [3.0, 3.5) angstrom (final-bin boundary follows archived extractor)."
+x_radial_fraction_5,"Defect-minus-pristine change in fraction of graph-edge distances in radial bin [3.5, 4.5) angstrom (final-bin boundary follows archived extractor)."
+x_radial_fraction_6,"Defect-minus-pristine change in fraction of graph-edge distances in radial bin [4.5, 6.0) angstrom (final-bin boundary follows archived extractor)."

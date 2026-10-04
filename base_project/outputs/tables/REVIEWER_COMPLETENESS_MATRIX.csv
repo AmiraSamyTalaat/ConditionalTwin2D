@@ -1,0 +1,19 @@
+requirement,status,evidence
+Development-only model selection,PASS,All ConditionalTwin weights selected from development cross-fitted predictions
+Within-host ranking objective,PASS,Pairwise rank branch trained only on within-host positive-negative pairs
+Host shortcut decomposition,PASS,"Pooled, host-centered, within-host, macro-host, and shortcut index reported"
+Strong tabular baseline,PASS,Five-seed ExtraTrees baseline retained
+Linear baseline,PASS,Host-balanced logistic regression added
+Ablation: host/class weighting,PASS,RawHostClassET separates weighting from representation
+Ablation: centered descriptors only,PASS,CenteredOnlyET isolates conditional deviations
+Conditional nonlinear branch,PASS,Raw plus label-blind host-centered descriptors with host/class balancing
+Ablation: rank only,PASS,PairRank reported
+Ablation: host only,PASS,HostBaseline reported
+Development-selected final method,PASS,Conditional-only selected in every meta-selection fold
+Screening utility,PASS,Within-host top-budget enrichment and recall reported
+Paired host statistics,PASS,Wilcoxon plus Holm across cohorts
+Prior external results preserved,PASS,"Imp2D, 2DMD, QPOD treated as retrospective"
+New prospective lockbox,NOT COMPLETE,Requires untouched data after method freeze
+Relaxed 2DMD structures,NOT COMPLETE,Raw VASP source is large; no result fabricated
+Published defect-aware fingerprint comparator,NOT COMPLETE,Requires exact source implementation and structural files
+Physics validation,NOT COMPLETE,Requires spin density/PDOS/local-moment files or new DFT

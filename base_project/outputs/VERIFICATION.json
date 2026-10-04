@@ -1,0 +1,18 @@
+{
+  "completed_at": "2026-07-18T11:47:12.413182+00:00",
+  "development_records_529": true,
+  "development_hosts_30": true,
+  "features_68": true,
+  "component_oof_complete": true,
+  "selection_development_only": true,
+  "no_external_labels_used_for_selection": true,
+  "cohorts_4": true,
+  "models_7": true,
+  "host_bootstrap_rows_at_least_95pct": true,
+  "paired_bootstrap_table_complete": true,
+  "figures_all_formats": true,
+  "conditional_twin_within_host_finite": true,
+  "no_prospective_lockbox_claim": true,
+  "no_relaxed_2dmd_completion_claim": true,
+  "all": true
+}

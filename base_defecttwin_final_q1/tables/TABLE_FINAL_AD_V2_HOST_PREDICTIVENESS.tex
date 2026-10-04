@@ -1,0 +1,16 @@
+\begin{table}[htbp]
+\centering
+\caption{Host-level applicability-domain predictiveness audit.}
+\label{tab:adhosts}
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{lrrrr}
+\toprule
+cohort & evaluable\_hosts & mean\_AD\_vs\_host\_AUROC\_Spearman & mean\_AD\_vs\_host\_error\_Spearman & failed\_hosts\_AUROC\_below\_0\_55 \\
+\midrule
+2DMD\_strict & 3 & 0.5000 & 1.0000 & 2 \\
+Development & 13 & -0.5377 & 0.7143 & 2 \\
+Imp2D\_strict & 40 & -0.1086 & -0.0349 & 24 \\
+\bottomrule
+\end{tabular}
+}
+\end{table}

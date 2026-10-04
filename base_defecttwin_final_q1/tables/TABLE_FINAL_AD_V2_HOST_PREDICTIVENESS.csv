@@ -1,0 +1,4 @@
+cohort,evaluable_hosts,mean_AD_vs_host_AUROC_Spearman,mean_AD_vs_host_error_Spearman,failed_hosts_AUROC_below_0_55
+2DMD_strict,3,0.5,1.0,2
+Development,13,-0.5377195779734364,0.7142857142857143,2
+Imp2D_strict,40,-0.10863039399624766,-0.03489681050656661,24

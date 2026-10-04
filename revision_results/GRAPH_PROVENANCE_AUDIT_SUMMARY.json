@@ -1,0 +1,30 @@
+{
+  "source_stage": "STAGE2B_GRAPH_DERIVED_BASELINE_COMPARISON",
+  "hosts_sampled": 30,
+  "graph_features_compared_per_host": 52,
+  "total_comparisons": 1560,
+  "maximum_absolute_difference": 3.552713678800501e-15,
+  "differences_above_1e-10": 0,
+  "graph_config": {
+    "covalent_radius_scale": 1.25,
+    "minimum_neighbor_cutoff_A": 1.1,
+    "maximum_neighbor_cutoff_A": 3.5,
+    "periodic_xy_translations": [
+      -1,
+      0,
+      1
+    ],
+    "radial_histogram_edges_A": [
+      0.0,
+      1.5,
+      2.0,
+      2.5,
+      3.0,
+      3.5,
+      4.5,
+      6.0
+    ],
+    "degree_histogram_max": 8
+  },
+  "pass": true
+}

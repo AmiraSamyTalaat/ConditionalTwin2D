@@ -1,0 +1,17 @@
+\begin{table}[htbp]
+\centering
+\caption{Corrected monotonic nested host-disjoint calibration comparison.}
+\label{tab:calibration}
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{lrrrrrrrrrrrrrrrrrrrrrrrrr}
+\toprule
+method & records & positives & prevalence & AUROC & AUPRC & Brier & Brier\_skill & NLL & ECE15 & Macro\_host\_Brier & Macro\_host\_NLL & Macro\_host\_ECE15 & Host\_balanced\_ECE15 & Calibration\_intercept & Calibration\_slope & Host\_balanced\_intercept & Host\_balanced\_slope & rank\_Brier & rank\_NLL & rank\_ECE15 & rank\_Macro\_host\_Brier & rank\_Macro\_host\_NLL & rank\_Macro\_host\_ECE15 & mean\_rank & selected\_on\_development\_only \\
+\midrule
+temperature & 529 & 343 & 0.6484 & 0.9065 & 0.9421 & 0.1263 & 0.4461 & 0.3942 & 0.1206 & 0.0968 & 0.3245 & 0.2023 & 0.1235 & 0.5584 & 1.6246 & -0.1497 & 2.1137 & 3.0000 & 3.0000 & 3.0000 & 1.0000 & 1.0000 & 1.0000 & 2.0000 & True \\
+beta & 529 & 343 & 0.6484 & 0.9038 & 0.9292 & 0.1176 & 0.4842 & 0.3783 & 0.1046 & 0.0989 & 0.3338 & 0.2116 & 0.1284 & 0.2008 & 1.4957 & -0.6023 & 1.7096 & 1.0000 & 2.0000 & 1.0000 & 2.0000 & 4.0000 & 4.0000 & 2.3333 & False \\
+platt & 529 & 343 & 0.6484 & 0.9053 & 0.9415 & 0.1197 & 0.4749 & 0.3771 & 0.1099 & 0.0999 & 0.3325 & 0.2088 & 0.1204 & 0.2459 & 1.3993 & -0.5377 & 1.8380 & 2.0000 & 1.0000 & 2.0000 & 4.0000 & 2.0000 & 3.0000 & 2.3333 & False \\
+identity & 529 & 343 & 0.6484 & 0.9079 & 0.9434 & 0.1294 & 0.4325 & 0.4091 & 0.1316 & 0.0996 & 0.3338 & 0.2071 & 0.1223 & 0.5930 & 1.8695 & -0.1329 & 2.3494 & 4.0000 & 4.0000 & 4.0000 & 3.0000 & 3.0000 & 2.0000 & 3.3333 & False \\
+\bottomrule
+\end{tabular}
+}
+\end{table}

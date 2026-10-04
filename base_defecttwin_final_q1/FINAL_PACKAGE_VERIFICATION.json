@@ -1,0 +1,5 @@
+{
+  "status": "scientific_artifacts_verified_by_scripts/verify_final_package.py",
+  "obsolete_manuscript_dependency_removed": true,
+  "note": "The v5 public repository does not require historical manuscript copies for code verification."
+}

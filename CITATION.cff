@@ -1,0 +1,12 @@
+cff-version: 1.2.0
+message: "If you use this software or reproducibility package, please cite the associated manuscript and the public repository record."
+title: "ConditionalTwin-2D reproducibility package"
+type: software
+authors:
+  - family-names: "Talaat"
+    given-names: "Amira Samy"
+    orcid: "https://orcid.org/0000-0002-9413-3079"
+version: "8.0"
+date-released: "2026-10-03"
+abstract: "Code, frozen inputs, predictions, audit scripts, and result artifacts supporting the manuscript Host Conditional Machine Learning Supports Candidate Ranking of Magnetic Point Defects Within Two Dimensional Materials Using Computed Magnetic Moments."
+license: MIT

@@ -1,0 +1,9 @@
+{
+  "selected_method": "temperature",
+  "valid": true,
+  "params": [
+    0.4188481060555401
+  ],
+  "selection_rule": "minimum mean rank across record-weighted and macro-host Brier/NLL/ECE15; development only",
+  "external_labels_used": false
+}

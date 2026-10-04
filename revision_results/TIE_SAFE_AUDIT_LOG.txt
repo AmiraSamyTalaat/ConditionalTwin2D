@@ -1,0 +1,13 @@
+     cohort                         score  host_centered_auc_naive  host_centered_auc_tie_safe  within_host_auc
+Development global_development_prevalence                 0.219560                    0.500000         0.500000
+Development        oracle_host_prevalence                 0.500000                    0.500000         0.500000
+Development                      ET_score                 0.729694                    0.729694         0.808929
+Development           ConditionalET_score                 0.716637                    0.716637         0.860759
+       2DMD global_development_prevalence                 0.500000                    0.500000         0.500000
+       2DMD        oracle_host_prevalence                 0.500000                    0.500000         0.500000
+       2DMD                      ET_score                 0.519036                    0.519036         0.477353
+       2DMD           ConditionalET_score                 0.520597                    0.520597         0.567280
+      Imp2D global_development_prevalence                 0.507816                    0.500000         0.500000
+      Imp2D        oracle_host_prevalence                 0.500000                    0.500000         0.500000
+      Imp2D                      ET_score                 0.525865                    0.525865         0.515184
+      Imp2D           ConditionalET_score                 0.522194                    0.522194         0.519659

@@ -1,0 +1,8 @@
+Legacy manuscript PDF preflight record retained for provenance.
+Original artifact name: DefectTwin2D_Final_Q1_Repair_Manuscript.pdf
+Pages: 17
+Encrypted: False
+Openable (PyMuPDF): True
+Likely scanned: False
+XFA present: False
+Public-release note: original machine-local build path removed.

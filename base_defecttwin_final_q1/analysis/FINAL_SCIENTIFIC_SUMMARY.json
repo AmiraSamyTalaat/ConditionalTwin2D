@@ -1,0 +1,43 @@
+{
+  "stage": "DEFECTTWIN2D_FINAL_Q1_REPAIR_COMPLETE",
+  "completed_at": "2026-07-17T08:09:12.701335+00:00",
+  "selected_calibrator": "temperature",
+  "selection_basis": "development-only mean rank across record-weighted and macro-host Brier/NLL/ECE15",
+  "internal_primary_AUROC": 0.9079438226903664,
+  "internal_threshold_AUROC_range": [
+    0.913655462184874,
+    0.9190256747860436
+  ],
+  "2DMD_pooled_AUROC_at_0_1": 0.7754297035604207,
+  "2DMD_host_centered_AUROC_at_0_1": 0.5017294378326771,
+  "Imp2D_pooled_AUROC_at_0_1": 0.5135081063705826,
+  "continuous_results": {
+    "2DMD_strict": {
+      "Global_Spearman": 0.0908094413874499,
+      "Host_centered_Spearman": 0.0189858982407559,
+      "Median_absolute_error": 0.502799740179134
+    },
+    "Development_LOHO": {
+      "Global_Spearman": 0.7829330546353163,
+      "Host_centered_Spearman": 0.7160449103098498,
+      "Median_absolute_error": 0.3013239179157334
+    },
+    "Imp2D_strict": {
+      "Global_Spearman": 0.0537214555180658,
+      "Host_centered_Spearman": 0.0785870078062116,
+      "Median_absolute_error": 0.4754188349151685
+    }
+  },
+  "AD_in_domain_fraction": {
+    "2DMD_strict": 0.7224,
+    "Development": 0.9489603024574668,
+    "Imp2D_strict": 0.6178998820158436
+  },
+  "AD_external_predictiveness": "negative/unstable",
+  "algorithmic_novelty": "moderate",
+  "validation_novelty": "strong",
+  "final_CDT_EGNN_allowed": false,
+  "external_tuning_allowed": false,
+  "larger_independent_lockbox": "not available and not fabricated",
+  "submission_position": "stronger specialized-Q1 attempt; acceptance not guaranteed"
+}

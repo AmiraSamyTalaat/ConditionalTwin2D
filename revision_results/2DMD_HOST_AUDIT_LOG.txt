@@ -1,0 +1,9 @@
+host   n  positive  negative  pairs  ET_AUROC  Conditional_AUROC     delta  pair_weight
+  BP 500       394       106  41764  0.248180           0.704470  0.456290     0.251512
+GaSe 500       276       224  61824  0.539208           0.508945 -0.030263     0.372317
+InSe 500       244       256  62464  0.569360           0.533291 -0.036069     0.376171
+MoS2 500         0       500      0       NaN                NaN       NaN     0.000000
+WSe2 500         0       500      0       NaN                NaN       NaN     0.000000
+
+  informative_hosts  ET_within_host_AUROC  Conditional_within_host_AUROC    delta  delta_ci_low  delta_ci_high  delta_without_BP  bootstrap_replicates  bootstrap_refits_model
+                 3              0.477353                        0.56728 0.089927     -0.036069        0.45629         -0.033181                  5000                   False

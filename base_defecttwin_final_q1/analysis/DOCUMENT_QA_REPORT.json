@@ -1,0 +1,41 @@
+{
+  "main_document": {
+    "paragraphs": 186,
+    "tables": 7,
+    "captions": 20,
+    "hyperlinks": 33,
+    "fonts": [
+      "Tinos"
+    ],
+    "explicit_colors": [
+      "000000"
+    ],
+    "declarations_present": true
+  },
+  "supplement": {
+    "paragraphs": 144,
+    "tables": 20,
+    "captions": 31,
+    "hyperlinks": 33,
+    "fonts": [
+      "Tinos"
+    ],
+    "explicit_colors": [
+      "000000"
+    ],
+    "declarations_present": false
+  },
+  "rendered_pages": {
+    "main": 17,
+    "supplement": 17
+  },
+  "visual_review": "Every rendered DOCX page inspected; no clipping, overlap, missing figures, or broken glyphs observed.",
+  "pdf_render_review": "Both PDFs rendered at 150 dpi with 17 pages each.",
+  "formatting": {
+    "single_body_font": "Tinos",
+    "text_and_tables": "black/white",
+    "figures": "colored",
+    "workflow": "detailed ten-stage diagram"
+  },
+  "checklist_status": "implemented"
+}

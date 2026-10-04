@@ -1,0 +1,19 @@
+{
+  "stage": "DEFECTTWIN2D_STAGE_STRONG_Q1_TRANSPORT_RANK",
+  "version": "2.1.0-conditional-ablation",
+  "generated_at": "2026-07-18T11:47:12.412707+00:00",
+  "selected_candidate": {
+    "name": "Conditional_only",
+    "w_global": 0.0,
+    "w_conditional": 1.0,
+    "w_host": 0.0,
+    "w_rank": 0.0
+  },
+  "conditional_representation_requires_host_candidate_batch": true,
+  "selection_source": "development cross-fitted predictions only",
+  "no_external_labels_used_for_selection": true,
+  "external_cohorts_status": "retrospective diagnostics only",
+  "primary_endpoint_muB": 0.1,
+  "feature_count": 68,
+  "future_confirmatory_lockbox_required": true
+}

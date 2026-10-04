@@ -1,0 +1,2 @@
+informative_hosts,ET_within_host_AUROC,Conditional_within_host_AUROC,delta,delta_ci_low,delta_ci_high,delta_without_BP,bootstrap_replicates,bootstrap_refits_model
+3,0.4773534796328861,0.5672801291161804,0.08992664948329432,-0.036068775614753745,0.456290106311656,-0.033180998970133935,5000,False
